@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondry-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section : 20px;
+}
+
+body{
+    font-family:  'poppins',sans-serif;
+     color: var(--accent-color-dark);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.small-bold-text{
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+.Container{
+max-width: 1180px;
+margin-inline: auto;
+padding-inline: var(--padding-inline-section);
+}
+
+
+.top-bannar{
+    background-color: #4fb3d4;
+   background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzgtMDkta255OWZoM2IuanBn.jpg);
+    background-repeat: repeat;
+}
+
+             /*....Nav....*/
+ul{
+    list-style: none;
+    
+}
+.big-img{
+    background-image: url(https://asterra.md/uploads/offers/thumbs/version_190/5d5e4387795b0.jpg);
+    min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.main-nav{
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.company-logo{
+    margin-left: 100px;
+}
+.nav-links ul{
+  justify-content: end;
+  gap: 40px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.hover-links{
+    color: var(--secondry-text-color);
+    transition: o.2 ease-in;
+}
+.hover-links:hover{
+    color: var(--accent-color);  
+}
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white!important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondry-text-color);
+    transition: 0.2s ease-out;
+    margin-top: 20px;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+.secondary-button{
+  
+    background-color: #c2cdd8;
+    border: 0.5px solid var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--secondry-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    margin-top: 20px;
+}
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color-dark);
+}
+/*---Google Map----*/
+.Map{
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+}
+ h2{
+    text-align: center;
+   
+    font-size: 2.5rem;
+ }
+ iframe{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+ }
+
+ /*---Contact Us----*/
+ 
+ .contact-form {
+    
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/*--footer---*/
+footer{
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+    padding-block: 80px;
+    background-color: #ebf2fa;
+  }
+  .coloum-link{
+      flex-direction: column;
+     align-items: flex-start;
+     gap: 20px;
+  }
+  .footer-container{
+      align-items: flex-start;
+      justify-content: space-between;
+  }
+  .hover-links:hover{
+      background-color: #183b56;
+  }
+  /*---SUB-FOOTER---*/
+  .sub-footer{
+      background-color: #cad9e7;
+      padding: var(--padding-inline-section);
+  }
+  .subfooter-container{
+      justify-content: center;
+      gap: 30px;
+  }

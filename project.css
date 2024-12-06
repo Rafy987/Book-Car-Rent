@@ -1,0 +1,283 @@
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-text-color: #183b56;
+            --secondry-text-color: #577592;
+            --accent-color: #2294ed;
+            --accent-color-dark: #1d69a3;
+            --padding-inline-section: 20px;
+        }
+
+        body {
+            font-family: 'poppins', sans-serif;
+            color: var(--accent-color-dark);
+        }
+
+        .small-bold-text {
+            font-size: 2rem;
+            font-weight: 1000;
+            text-align: center;
+            color: rgb(255, 253, 253);
+        }
+
+        .Container {
+            max-width: 1180px;
+            margin-inline: auto;
+            padding-inline: var(--padding-inline-section);
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+        }
+
+        .top-bannar {
+            background-color: #4fb3d4;
+            background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzgtMDkta255OWZoM2IuanBn.jpg);
+            background-repeat: repeat;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .main-nav {
+            margin-right: 100px;
+            justify-content: space-between;
+        }
+
+        .company-logo {
+            margin-left: 100px;
+        }
+
+        .nav-links ul {
+            justify-content: end;
+            gap: 40px;
+        }
+
+        .nav-links {
+            flex-basis: 730px;
+        }
+
+        .hover-links {
+            color: var(--secondry-text-color);
+            transition: 0.2s ease-in;
+        }
+
+        .hover-links:hover {
+            color: var(--accent-color);
+        }
+
+        .primary-button {
+            background-color: var(--accent-color);
+            border-radius: 6px;
+            font-weight: 700;
+            color: white !important;
+            padding: 12px 24px;
+            box-shadow: 0 0 2px var(--secondry-text-color);
+            transition: 0.2s ease-out;
+            margin-top: 20px;
+        }
+
+        .primary-button:hover {
+            background-color: var(--accent-color-dark);
+        }
+
+        .secondary-button {
+            background-color: #c2cdd8;
+            border: 0.5px solid var(--accent-color);
+            border-radius: 6px;
+            font-weight: 700;
+            color: var(--secondry-text-color);
+            padding: 12px 24px;
+            transition: 0.2s ease-out;
+            margin-top: 20px;
+        }
+
+        .secondary-button:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color-dark);
+        }
+
+        .header-section {
+            background: rgb(224, 251, 222);
+            background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .left-header {
+            max-width: 40vw;
+        }
+
+        .left-header h1 {
+            margin-top: 20px;
+        }
+
+        .left-header p {
+            margin-bottom: 20px;
+        }
+
+        .right-header img {
+            width: 600px;
+        }
+
+        .Company-para {
+            margin-block: 30px;
+            font-size: small;
+            font-weight: 100;
+            text-align: center;
+            color: rgb(41, 69, 100);
+        }
+
+        .logos {
+            gap: 20px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        .feature-sections {
+            background: rgb(224, 251, 222);
+            background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+            padding: 80px var(--padding-inline-section) 0;
+        }
+
+        .feature-header {
+            text-align: center;
+        }
+
+        .feature-header h2 {
+            margin-bottom: 20px;
+        }
+
+        .feature-area {
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .feature-card {
+            text-align: center;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 30%;
+        }
+
+        .feature-card img {
+            margin-bottom: 20px;
+            width: 300px;
+        }
+
+        .feature-description h3 {
+            text-align: center;
+        }
+
+        .footer-container {
+            justify-content: space-between;
+        }
+
+        .footer-container .coloum-link h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .footer-container .coloum-link a {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--secondry-text-color);
+            text-decoration: none;
+        }
+
+        .footer-container .coloum-link a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Subfooter Base Styling */
+.sub-footer {
+    background: linear-gradient(45deg, #1a1a2e, #16213e);
+    padding: 20px 0;
+    text-align: center;
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Subfooter Container */
+.subfooter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Designer Name Styling */
+.designer {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.designer span {
+    color: #f9a825;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.designer span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #f9a825;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease-in-out;
+}
+
+.designer span:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Copyright Text */
+.copyright {
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgba(241, 241, 241, 0.8);
+}
+
+/* Cool Glow Effect on Hover */
+.designer:hover {
+    color: #f9a825;
+    text-shadow: 0 0 10px #f9a825, 0 0 20px #ffcc00;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .subfooter-container {
+        gap: 5px;
+    }
+
+    .designer {
+        font-size: 0.9rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+}

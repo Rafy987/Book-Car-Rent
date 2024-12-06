@@ -1,0 +1,38 @@
+body{
+    
+    background-color: cyan;
+}
+.shadow{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 10px blue, 8px 8px 1px rgb(150, 0, 0);
+    color: transparent;
+}
+.first{
+    background-color: aqua;
+    border: 10px dashed black;
+    padding : 50px
+    margin: 0px
+    
+}
+#Green{
+
+    color: blue;
+}
+ul{
+    text-align: end;
+    list-style: none;
+    color: blue;
+    background-color: rgb(213, 192, 233);
+}
+
+li{
+
+    font-size: x-large;
+    display:  inline;
+    padding: 20px;
+}
+li:hover{
+color: violet;
+cursor: pointer;
+}
